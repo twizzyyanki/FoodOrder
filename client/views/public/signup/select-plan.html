@@ -1,0 +1,10 @@
+<template name="selectItem">
+    <div class="list-group select-item">
+        {{#each items}}
+            <a href="#" class="list-group-item">
+                <input type="radio" name="selectItem" id="selectPlan_{{name}}" value="{{name}}">
+                {{capitalize name}}: <span class="pull-right">{{price.cad}}</span>
+            </a>
+        {{/each}}
+    </div>
+</template>

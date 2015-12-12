@@ -1,0 +1,46 @@
+{
+  "public": {
+    "items": [
+      {
+        "name": "Menu 1",
+        "price": {
+          "cents": 10000,
+          "cad": "$10",
+          "specialCad": "$7",
+          "specialCents": 7000
+        },
+        "specialOn": 1
+      },
+      {
+        "name": "Menu 2",
+        "price": {
+          "cents": 10500,
+          "cad": "$10.50",
+          "specialCad": "$7.50",
+          "specialCents": 7500
+        },
+        "specialOn": 2
+      },
+      {
+        "name": "Menu 3",
+        "price": {
+          "cents": 8500,
+          "cad": "$8.50",
+          "specialCad": "$5.50",
+          "specialCents": 5500
+        },
+        "specialOn": 3
+      }
+    ],
+    "stripe": {
+      "testPublishableKey": "pk_test_UtaXbsfVuvl7LIAmYG1CIHGy",
+      "livePublishableKey": "pk_live_ggXoaQiEt3QDzpaKkvrKIUjC"
+    }
+  },
+  "private": {
+    "stripe": {
+      "testSecretKey": "sk_test_VTU2rwp3vaYzZCTDMlkJca2u",
+      "liveSecretKey": "sk_live_9fXsZqKVK24H3EHz2RpPeuNh"
+    }
+  }
+}
